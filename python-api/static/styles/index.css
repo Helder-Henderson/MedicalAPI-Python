@@ -1,0 +1,44 @@
+body {
+    background: var(--bg);
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    --bg: #faf9f8;
+    --secondary-green: #C0E0B2;
+    --primary-green: #129E23;
+    --primary-black: #3D3D3D;
+    --black: #000;
+    --grey: #E6E6E6;
+}
+
+h1 {
+    letter-spacing: 0.4px;
+}
+
+select.especiality {
+    border-radius: .5rem;
+    border: 1px solid var(--primary-black);
+    outline-color: var(--primary-green);
+    font-size: medium;
+    width:90%;
+    margin: .6rem 0;
+    padding: 0.5rem;
+}
+
+.input {
+    width: 90%;
+    border-radius: .5rem;
+    border: 1px solid var(--primary-black);
+    outline-color: var(--primary-green);
+    margin: .3rem 0;
+    padding: 0.5rem;
+}
+
+.action {
+    cursor: pointer;
+}
+
+table {
+    font-size: 1.3rem;
+}
